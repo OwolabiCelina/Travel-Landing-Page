@@ -3,7 +3,7 @@
     min-height: 100vh;
     position: relative;
     background: url("../assets/coloo.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     overflow: hidden;
   }
@@ -17,7 +17,7 @@
     background: linear-gradient(transparent, rgb(2,1,28));
   }
   
-  .earth{
+  .earth img{
     width: 30%;
     position: absolute;
     top: 10%;
@@ -37,12 +37,16 @@
   .left{
     width: 60%;
   }
+  .left button a{
+    text-decoration: none;
+  }
   
   .header{
     font-size: 70px;
     font-weight: bold;
     width: 90%;
     font-family: 'Cinzel Decorative', cursive;
+    color: white;
   }
   
   .header span{
@@ -136,10 +140,10 @@
   .highway, .beach, .luggage{
     position: absolute;
   }
-  .beach{
+  .beach img{
     right: -8;
     top: -5%;
-    width: 30%;
+    width: 100%;
     z-index: 100;
   }
   .luggage{

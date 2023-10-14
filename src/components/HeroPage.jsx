@@ -55,7 +55,6 @@ const HeroPage = () => {
           yoyo: Infinity
         }} 
         >
-        {/* <img src={luggage} alt="highway"/> */}
         </motion.div>
         </div>
       </div>
